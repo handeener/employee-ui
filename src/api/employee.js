@@ -10,8 +10,8 @@ export const getEmployeeById = async (id) => {
     return await axios.get(`${API_BASE_URL}/${id}`);
 }   
 
-export const addEmployee = async (employee) => {
-    return await axios.post(API_BASE_URL + '/create', employee);
+export const createEmployee = async (employee) => {
+    return await axios.post(API_BASE_URL + '/create', { employeeDTO: employee });
 }
 
 export const updateEmployee = async (id, employee) => {
