@@ -57,7 +57,7 @@ export default function CreateEmployee() {
         </div>
         <div>
           <label>Department:</label>
-          <input type="text" name="department" value={employee.department} onChange={handleChange} required />
+          <input type="text" name="department" value={employee.department} onChange={handleChange} required maxLength={50} />
         </div>
         <div>
           <label>Position:</label>
@@ -65,7 +65,7 @@ export default function CreateEmployee() {
         </div>
         <div>
           <label>Phone Number:</label>
-          <input type="text" name="phoneNumber" value={employee.phoneNumber} onChange={handleChange} required />
+          <input type="text" name="phoneNumber" value={employee.phoneNumber} onChange={handleChange} required maxLength={11} />
         </div>
         <div>
           <label>Address:</label>
