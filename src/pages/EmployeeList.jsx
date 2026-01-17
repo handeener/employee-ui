@@ -53,6 +53,9 @@ export default function EmployeeList() {
             <th>Email</th>
             <th>Department</th>
             <th>Position</th>
+            <th>Phone Number</th>
+            <th>Address</th>
+
           </tr>
         </thead>
         <tbody>
